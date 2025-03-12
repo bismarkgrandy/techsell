@@ -1,0 +1,168 @@
+.full-profile {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #4CAF50, #388E3C);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.back-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.page-label {
+  opacity: 0.8;
+}
+
+.header-right {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.header-right svg {
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.profile-image-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.large-profile-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background: #45a049;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.edit-photo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #4CAF50;
+}
+
+.username-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.username-section h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.edit-name {
+  cursor: pointer;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.bio-section {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.bio-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+}
+
+.bio-section textarea {
+  width: 100%;
+  min-height: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 4px;
+  padding: 1rem;
+  color: white;
+  resize: none;
+  font-family: inherit;
+}
+
+.bio-section textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bio-section textarea:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* Add these new styles to your existing Profile.css */
+
+.header-icon {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.header-icon:hover {
+  opacity: 0.8;
+}
+
+.back-icon {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.back-icon:hover {
+  opacity: 0.8;
+}
+
+.username-input {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.8rem;
+  padding: 0.2rem 0.5rem;
+  margin: 0;
+  font-family: inherit;
+  text-align: center;
+}
+
+.username-input:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.3);
+}

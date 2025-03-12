@@ -1,0 +1,126 @@
+.profile-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.profile-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #2d2d2d;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  position: absolute;
+  left: -40px;
+  top: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-name {
+  color: white;
+  margin: 0;
+}
+
+.profile-menu {
+  flex-grow: 1;
+}
+
+.menu-item {
+  width: 100%;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #4CAF50;
+}
+
+.status-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-top: 1px solid #3d3d3d;
+  border-bottom: 1px solid #3d3d3d;
+  margin: 10px 0;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #666;
+  border-radius: 50%;
+}
+
+.sign-out {
+  width: 100%;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  color: #ff4444;
+  text-align: left;
+  cursor: pointer;
+}
+
+.footer-links {
+  margin-top: auto;
+  padding-top: 20px;
+}
+
+.footer-links a {
+  display: block;
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.copyright {
+  color: #666;
+  font-size: 12px;
+  margin-top: 10px;
+}
